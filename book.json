@@ -1,0 +1,78 @@
+{
+    "title": "知识技术积累手册",
+    "author": "Rocker Wang",
+    "description": "知识技术积累手册",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "plugins": [
+        "-summary",
+        "-theme-comscore",
+        "-expandable-chapters",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "-sharing",
+        "splitter",
+        "-anchor-navigation",
+        "-ancre-navigation",
+        "hide-element",
+        "-insert-logo",
+        "code",
+        "prism",
+        "-highlight",
+        "-custom-favicon",
+        "-pageview-count",
+        "redirect",
+        "chapter-fold",
+        "-back-to-top-button",
+        "emphasize",
+        "-simple-page-toc",
+        "-page-toc-button",
+        "theme-fexa",
+        "klipse",
+        "tbfed-pagefooter",
+        "auto-scroll-table"
+    ],
+    "variables": {
+        "themeFexa": {
+            "nav": [
+                {
+                    "url": "",
+                    "target": "",
+                    "name": ""
+                }
+            ]
+        }
+    },
+    "pluginsConfig": {
+        "code": {
+            "copyButtons": true
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-tomorrow.css"
+            ],
+            "lang": {
+                "flow": "typescript"
+            },
+            "ignore": [
+            ]
+        },
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "theme-fexa": {
+            "search-placeholder": "输入搜索内容",
+            "logo": "images/KnowledgeLib.png",
+            "favicon": "images/knowledge_lib_favicon.ico"
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy MyKnowledgeLib",
+            "modify_label": "文件修改时间："
+        }
+    }
+}
